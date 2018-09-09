@@ -1,0 +1,156 @@
+[
+    {
+        "Name": "Di Fara Pizza",
+        "Details": [
+            {
+                "Address": "1424 Avenue J",
+                "City": "Brooklyn",
+                "State": "NY",
+                "Zip": "11230"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.96214,
+                "Latitude": 40.62503
+            }
+        ]
+    },
+    {
+        "Name": "Fiore's Pizza",
+        "Details": [
+            {
+                "Address": "165 Bleecker St",
+                "City": "New York",
+                "State": "NY",
+                "Zip": "10012"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -74.00005,
+                "Latitude": 40.72875
+            }
+        ]
+    },
+    {
+        "Name": "Juliana's",
+        "Details": [
+            {
+                "Address": "19 Old Fulton St",
+                "City": "Brooklyn",
+                "State": "NY",
+                "Zip": "11201"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.99418,
+                "Latitude": 40.70282
+            }
+        ]
+    },
+    {
+        "Name": "Keste Pizza & Vino",
+        "Details": [
+            {
+                "Address": "271 Bleecker St",
+                "City": "New York",
+                "State": "NY",
+                "Zip": "10014"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -74.00314,
+                "Latitude": 40.73147
+            }
+        ]
+    },
+    {
+        "Name": "L & B Spumoni Gardens",
+        "Details": [
+            {
+                "Address": "2725 86th St",
+                "City": "Brooklyn",
+                "State": "NY",
+                "Zip": "11223"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.98152,
+                "Latitude": 40.59431
+            }
+        ]
+    },
+    {
+        "Name": "New York Pizza Suprema",
+        "Details": [
+            {
+                "Address": "413 8th Ave",
+                "City": "New York",
+                "State": "NY",
+                "Zip": "10001"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.99515,
+                "Latitude": 40.75010
+            }
+        ]
+    },
+    {
+        "Name": "Paulie Gee's",
+        "Details": [
+            {
+                "Address": "60 Greenpoint Ave",
+                "City": "Brooklyn",
+                "State": "NY",
+                "Zip": "11222"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.95823,
+                "Latitude": 40.72993
+            }
+        ]
+    },
+    {
+        "Name": "Ribalta",
+        "Details": [
+            {
+                "Address": "48 E 12th St",
+                "City": "New York",
+                "State": "NY",
+                "Zip": "10003"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.99177,
+                "Latitude": 40.73344
+            }
+        ]
+    },
+    {
+        "Name": "Totonno's",
+        "Details": [
+            {
+                "Address": "1524 Neptune Ave",
+                "City": "Brooklyn",
+                "State": "NY",
+                "Zip": "11224"
+            }
+        ],
+        "Coordinates": [
+            {
+                "Longitude": -73.98327,
+                "Latitude": 40.57906
+            }
+        ]
+    }
+]
+
