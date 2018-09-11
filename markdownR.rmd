@@ -1,0 +1,30 @@
+$$
+    y = mx+ c
+$$
+
+
+$$
+     y = a + bx
+$$
+
+$$
+    \sum (\hat{Y} - Y)^2
+$$
+
+
+$$ y = mx + b $$
+
+
+$$ y = a + bx $$
+
+
+$$ \sum (\hat{Y} - Y)^2 $$
+
+
+$$ b = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2} $$
+
+
+$$ a = \bar{y} - b\bar{x} $$
+
+
+    
