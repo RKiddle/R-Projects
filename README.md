@@ -1,2 +1,2 @@
-# R-Projects
-For R projects.
+# R-Tutorials
+For learning R.
