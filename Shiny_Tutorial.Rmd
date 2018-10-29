@@ -1,0 +1,111 @@
+---
+title: Shiny in Markdown
+author: Richard Kiddle
+output: html_document
+runtime: shiny
+---
+
+```{r load-packages}
+library(shiny)    
+```
+# Select Input
+
+```{r select-input}
+selectInput(
+    inputId = 'SelectSample',
+    label='Please select a state',
+    choices = list('New York', 'Pennsylvania', 'California', 'Texas', 'Tennesse')
+)
+```
+
+```{r print-state}
+renderText(input$SelectSample)
+```
+
+# Other Inputs
+
+```{r other-inputs}
+sliderInput(
+    inputId='SliderSample',
+    label='This is a slider',
+    min=0, max=10, value=5
+)
+checkboxInput(
+    inputId = 'CheckSample',
+    label='Check this out'
+)
+radioButtons(
+    inputId = 'RadioSample',
+    label='Choose One',
+    choices=list('A', 'B', 'C')
+)  
+
+dateInput(
+    inputId='DataChoice',
+    label='Select a date'
+)
+```
+
+#Text Input
+
+```{r text-inputs}
+textInput(
+    inputId = 'TextSample',
+    label='Write Something',
+    placeholder = 'Enter words here'
+)
+
+textAreaInput(
+    inputId='TextAreaSample',
+    label='Write a long story'
+)
+
+passwordInput(
+    inputId = 'PasswordSample',
+    label='Enter the secret'
+)
+```
+
+```{r show-password}
+renderText(input$PasswordSample)
+```
+
+# Show Data
+
+```{r render-tables}
+renderTable(mtcars, rownames=FALSE)
+
+renderDataTable(mtcars)
+
+DT::renderDataTable(mtcars)
+
+```
+
+# Plots
+
+```{r render-plot}
+library(ggplot2)
+renderPlot(
+    ggplot(mtcars, aes_string(x='mpg')) + geom_histogram()
+)
+```
+
+```{r dynamic-plot}
+selectInput(
+    inputId = 'PlotColumn',
+    label='Choose a column',
+    choices=names(mtcars)
+)
+
+sliderInput(
+    inputId = 'Bins',
+    label-'Choose number of bins',
+    min=5, max=75, value=20
+)
+
+renderPlot(
+    ggplot(mtcars, aes_string(x=input$PlotColumn)) + geom_histogram(bins=input$Bins)
+)
+```
+
+
